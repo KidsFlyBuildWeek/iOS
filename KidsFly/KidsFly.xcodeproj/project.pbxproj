@@ -10,7 +10,7 @@
 		A27B73BD2339318C00F825CE /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A27B73BC2339318C00F825CE /* AppDelegate.swift */; };
 		A27B73BF2339318C00F825CE /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A27B73BE2339318C00F825CE /* SceneDelegate.swift */; };
 		A27B73C12339318C00F825CE /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A27B73C02339318C00F825CE /* ViewController.swift */; };
-		A27B73C42339318C00F825CE /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A27B73C22339318C00F825CE /* Main.storyboard */; };
+		A27B73C42339318C00F825CE /* Traveller.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A27B73C22339318C00F825CE /* Traveller.storyboard */; };
 		A27B73C62339318E00F825CE /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A27B73C52339318E00F825CE /* Assets.xcassets */; };
 		A27B73C92339318E00F825CE /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A27B73C72339318E00F825CE /* LaunchScreen.storyboard */; };
 		A27B73D12339334600F825CE /* HomeTripsView.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A27B73D02339334600F825CE /* HomeTripsView.storyboard */; };
@@ -27,7 +27,7 @@
 		A27B73BC2339318C00F825CE /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		A27B73BE2339318C00F825CE /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
 		A27B73C02339318C00F825CE /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		A27B73C32339318C00F825CE /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		A27B73C32339318C00F825CE /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Traveller.storyboard; sourceTree = "<group>"; };
 		A27B73C52339318E00F825CE /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		A27B73C82339318E00F825CE /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		A27B73CA2339318E00F825CE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -87,12 +87,8 @@
 		A27B73DA2339357500F825CE /* Storyboards */ = {
 			isa = PBXGroup;
 			children = (
-				A27B73C22339318C00F825CE /* Main.storyboard */,
-				A27B73D62339353300F825CE /* Settings.storyboard */,
 				A27B73D82339356C00F825CE /* SignUpLogIn.storyboard */,
-				A27B73D42339341100F825CE /* KidsFlyConnectionApply.storyboard */,
-				A27B73D22339336E00F825CE /* AddFlightView.storyboard */,
-				A27B73D02339334600F825CE /* HomeTripsView.storyboard */,
+				A27B73E32339661C00F825CE /* Traveller Storyboards */,
 			);
 			path = Storyboards;
 			sourceTree = "<group>";
@@ -126,6 +122,18 @@
 			children = (
 			);
 			path = Views;
+			sourceTree = "<group>";
+		};
+		A27B73E32339661C00F825CE /* Traveller Storyboards */ = {
+			isa = PBXGroup;
+			children = (
+				A27B73C22339318C00F825CE /* Traveller.storyboard */,
+				A27B73D62339353300F825CE /* Settings.storyboard */,
+				A27B73D42339341100F825CE /* KidsFlyConnectionApply.storyboard */,
+				A27B73D22339336E00F825CE /* AddFlightView.storyboard */,
+				A27B73D02339334600F825CE /* HomeTripsView.storyboard */,
+			);
+			path = "Traveller Storyboards";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -192,7 +200,7 @@
 				A27B73D12339334600F825CE /* HomeTripsView.storyboard in Resources */,
 				A27B73D92339356C00F825CE /* SignUpLogIn.storyboard in Resources */,
 				A27B73C62339318E00F825CE /* Assets.xcassets in Resources */,
-				A27B73C42339318C00F825CE /* Main.storyboard in Resources */,
+				A27B73C42339318C00F825CE /* Traveller.storyboard in Resources */,
 				A27B73D72339353300F825CE /* Settings.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -215,12 +223,12 @@
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXVariantGroup section */
-		A27B73C22339318C00F825CE /* Main.storyboard */ = {
+		A27B73C22339318C00F825CE /* Traveller.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
 				A27B73C32339318C00F825CE /* Base */,
 			);
-			name = Main.storyboard;
+			name = Traveller.storyboard;
 			sourceTree = "<group>";
 		};
 		A27B73C72339318E00F825CE /* LaunchScreen.storyboard */ = {
