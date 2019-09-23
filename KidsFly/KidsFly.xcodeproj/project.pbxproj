@@ -1,0 +1,409 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		A27B73BD2339318C00F825CE /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A27B73BC2339318C00F825CE /* AppDelegate.swift */; };
+		A27B73BF2339318C00F825CE /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A27B73BE2339318C00F825CE /* SceneDelegate.swift */; };
+		A27B73C12339318C00F825CE /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A27B73C02339318C00F825CE /* ViewController.swift */; };
+		A27B73C42339318C00F825CE /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A27B73C22339318C00F825CE /* Main.storyboard */; };
+		A27B73C62339318E00F825CE /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A27B73C52339318E00F825CE /* Assets.xcassets */; };
+		A27B73C92339318E00F825CE /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A27B73C72339318E00F825CE /* LaunchScreen.storyboard */; };
+		A27B73D12339334600F825CE /* HomeTripsView.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A27B73D02339334600F825CE /* HomeTripsView.storyboard */; };
+		A27B73D32339336E00F825CE /* AddFlightView.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A27B73D22339336E00F825CE /* AddFlightView.storyboard */; };
+		A27B73D52339341100F825CE /* KidsFlyConnectionApply.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A27B73D42339341100F825CE /* KidsFlyConnectionApply.storyboard */; };
+		A27B73D72339353300F825CE /* Settings.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A27B73D62339353300F825CE /* Settings.storyboard */; };
+		A27B73D92339356C00F825CE /* SignUpLogIn.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A27B73D82339356C00F825CE /* SignUpLogIn.storyboard */; };
+		A27B73DD2339359000F825CE /* Flight.swift in Sources */ = {isa = PBXBuildFile; fileRef = A27B73DC2339359000F825CE /* Flight.swift */; };
+		A27B73E0233935AE00F825CE /* FlightController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A27B73DF233935AE00F825CE /* FlightController.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		A27B73B92339318C00F825CE /* KidsFly.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = KidsFly.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		A27B73BC2339318C00F825CE /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		A27B73BE2339318C00F825CE /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		A27B73C02339318C00F825CE /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		A27B73C32339318C00F825CE /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		A27B73C52339318E00F825CE /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		A27B73C82339318E00F825CE /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		A27B73CA2339318E00F825CE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A27B73D02339334600F825CE /* HomeTripsView.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = HomeTripsView.storyboard; sourceTree = "<group>"; };
+		A27B73D22339336E00F825CE /* AddFlightView.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = AddFlightView.storyboard; sourceTree = "<group>"; };
+		A27B73D42339341100F825CE /* KidsFlyConnectionApply.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = KidsFlyConnectionApply.storyboard; sourceTree = "<group>"; };
+		A27B73D62339353300F825CE /* Settings.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = Settings.storyboard; sourceTree = "<group>"; };
+		A27B73D82339356C00F825CE /* SignUpLogIn.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = SignUpLogIn.storyboard; sourceTree = "<group>"; };
+		A27B73DC2339359000F825CE /* Flight.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Flight.swift; sourceTree = "<group>"; };
+		A27B73DF233935AE00F825CE /* FlightController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FlightController.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		A27B73B62339318C00F825CE /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		A27B73B02339318C00F825CE = {
+			isa = PBXGroup;
+			children = (
+				A27B73BB2339318C00F825CE /* KidsFly */,
+				A27B73BA2339318C00F825CE /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		A27B73BA2339318C00F825CE /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				A27B73B92339318C00F825CE /* KidsFly.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		A27B73BB2339318C00F825CE /* KidsFly */ = {
+			isa = PBXGroup;
+			children = (
+				A27B73BC2339318C00F825CE /* AppDelegate.swift */,
+				A27B73BE2339318C00F825CE /* SceneDelegate.swift */,
+				A27B73DE2339359500F825CE /* Models */,
+				A27B73E1233935BC00F825CE /* Model Controllers */,
+				A27B73E2233935D100F825CE /* Views */,
+				A27B73DB2339357F00F825CE /* View Controllers */,
+				A27B73DA2339357500F825CE /* Storyboards */,
+				A27B73C52339318E00F825CE /* Assets.xcassets */,
+				A27B73C72339318E00F825CE /* LaunchScreen.storyboard */,
+				A27B73CA2339318E00F825CE /* Info.plist */,
+			);
+			path = KidsFly;
+			sourceTree = "<group>";
+		};
+		A27B73DA2339357500F825CE /* Storyboards */ = {
+			isa = PBXGroup;
+			children = (
+				A27B73C22339318C00F825CE /* Main.storyboard */,
+				A27B73D62339353300F825CE /* Settings.storyboard */,
+				A27B73D82339356C00F825CE /* SignUpLogIn.storyboard */,
+				A27B73D42339341100F825CE /* KidsFlyConnectionApply.storyboard */,
+				A27B73D22339336E00F825CE /* AddFlightView.storyboard */,
+				A27B73D02339334600F825CE /* HomeTripsView.storyboard */,
+			);
+			path = Storyboards;
+			sourceTree = "<group>";
+		};
+		A27B73DB2339357F00F825CE /* View Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				A27B73C02339318C00F825CE /* ViewController.swift */,
+			);
+			path = "View Controllers";
+			sourceTree = "<group>";
+		};
+		A27B73DE2339359500F825CE /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				A27B73DC2339359000F825CE /* Flight.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		A27B73E1233935BC00F825CE /* Model Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				A27B73DF233935AE00F825CE /* FlightController.swift */,
+			);
+			path = "Model Controllers";
+			sourceTree = "<group>";
+		};
+		A27B73E2233935D100F825CE /* Views */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		A27B73B82339318C00F825CE /* KidsFly */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A27B73CD2339318E00F825CE /* Build configuration list for PBXNativeTarget "KidsFly" */;
+			buildPhases = (
+				A27B73B52339318C00F825CE /* Sources */,
+				A27B73B62339318C00F825CE /* Frameworks */,
+				A27B73B72339318C00F825CE /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = KidsFly;
+			productName = KidsFly;
+			productReference = A27B73B92339318C00F825CE /* KidsFly.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		A27B73B12339318C00F825CE /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1100;
+				LastUpgradeCheck = 1100;
+				ORGANIZATIONNAME = "Alex Shillingford";
+				TargetAttributes = {
+					A27B73B82339318C00F825CE = {
+						CreatedOnToolsVersion = 11.0;
+					};
+				};
+			};
+			buildConfigurationList = A27B73B42339318C00F825CE /* Build configuration list for PBXProject "KidsFly" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = A27B73B02339318C00F825CE;
+			productRefGroup = A27B73BA2339318C00F825CE /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				A27B73B82339318C00F825CE /* KidsFly */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		A27B73B72339318C00F825CE /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A27B73D52339341100F825CE /* KidsFlyConnectionApply.storyboard in Resources */,
+				A27B73C92339318E00F825CE /* LaunchScreen.storyboard in Resources */,
+				A27B73D32339336E00F825CE /* AddFlightView.storyboard in Resources */,
+				A27B73D12339334600F825CE /* HomeTripsView.storyboard in Resources */,
+				A27B73D92339356C00F825CE /* SignUpLogIn.storyboard in Resources */,
+				A27B73C62339318E00F825CE /* Assets.xcassets in Resources */,
+				A27B73C42339318C00F825CE /* Main.storyboard in Resources */,
+				A27B73D72339353300F825CE /* Settings.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		A27B73B52339318C00F825CE /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A27B73C12339318C00F825CE /* ViewController.swift in Sources */,
+				A27B73DD2339359000F825CE /* Flight.swift in Sources */,
+				A27B73BD2339318C00F825CE /* AppDelegate.swift in Sources */,
+				A27B73BF2339318C00F825CE /* SceneDelegate.swift in Sources */,
+				A27B73E0233935AE00F825CE /* FlightController.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		A27B73C22339318C00F825CE /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				A27B73C32339318C00F825CE /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		A27B73C72339318E00F825CE /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				A27B73C82339318E00F825CE /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		A27B73CB2339318E00F825CE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		A27B73CC2339318E00F825CE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		A27B73CE2339318E00F825CE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = KidsFly/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.shillwil.KidsFly;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		A27B73CF2339318E00F825CE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = KidsFly/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.shillwil.KidsFly;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		A27B73B42339318C00F825CE /* Build configuration list for PBXProject "KidsFly" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A27B73CB2339318E00F825CE /* Debug */,
+				A27B73CC2339318E00F825CE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A27B73CD2339318E00F825CE /* Build configuration list for PBXNativeTarget "KidsFly" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A27B73CE2339318E00F825CE /* Debug */,
+				A27B73CF2339318E00F825CE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = A27B73B12339318C00F825CE /* Project object */;
+}
