@@ -17,6 +17,10 @@
                         <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
                         <viewLayoutGuide key="safeArea" id="lCP-R3-G6F"/>
                     </view>
+                    <connections>
+                        <segue destination="YyU-9u-ta8" kind="presentation" id="WBX-hP-vVb"/>
+                        <segue destination="rCu-FC-ZUR" kind="presentation" id="v6c-k3-hBz"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="U9k-hS-2ha" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>

@@ -9,7 +9,7 @@
         <!--Tab Bar Controller-->
         <scene sceneID="uQl-aB-dV4">
             <objects>
-                <tabBarController id="k0e-4b-qDH" sceneMemberID="viewController">
+                <tabBarController modalPresentationStyle="fullScreen" id="k0e-4b-qDH" sceneMemberID="viewController">
                     <tabBar key="tabBar" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" id="vyx-1R-M2Q">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="49"/>
                         <autoresizingMask key="autoresizingMask"/>
