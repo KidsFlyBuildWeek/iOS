@@ -228,12 +228,19 @@
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="This Traveller is still more than 5 minutes out" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="7SX-pU-eOE">
+                                <rect key="frame" x="10" y="616" width="394.5" height="24"/>
+                                <fontDescription key="fontDescription" type="system" weight="medium" pointSize="20"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
                         </subviews>
                         <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
                         <constraints>
                             <constraint firstItem="FxE-Wb-mdB" firstAttribute="centerX" secondItem="xKb-Ad-lRw" secondAttribute="centerX" id="4bY-rO-aZh"/>
                             <constraint firstItem="avQ-4B-Mcu" firstAttribute="leading" secondItem="T26-39-kjP" secondAttribute="leading" constant="20" id="6Nd-FA-6FI"/>
                             <constraint firstItem="06o-Qk-UD9" firstAttribute="top" secondItem="gLW-Pa-zeJ" secondAttribute="bottom" constant="8" id="6q5-Yx-Cc9"/>
+                            <constraint firstItem="7SX-pU-eOE" firstAttribute="centerX" secondItem="xKb-Ad-lRw" secondAttribute="centerX" id="9LV-y0-zoP"/>
                             <constraint firstItem="06o-Qk-UD9" firstAttribute="leading" secondItem="T26-39-kjP" secondAttribute="leading" constant="20" id="J7T-Qm-ciI"/>
                             <constraint firstItem="chQ-Em-fmh" firstAttribute="leading" secondItem="T26-39-kjP" secondAttribute="leading" constant="20" id="YID-N1-Pco"/>
                             <constraint firstItem="FxE-Wb-mdB" firstAttribute="leading" secondItem="T26-39-kjP" secondAttribute="leading" constant="20" id="Z3j-2l-mXD"/>
@@ -245,6 +252,7 @@
                             <constraint firstItem="chQ-Em-fmh" firstAttribute="top" secondItem="T26-39-kjP" secondAttribute="top" constant="20" id="m70-dY-gJc"/>
                             <constraint firstItem="gLW-Pa-zeJ" firstAttribute="leading" secondItem="T26-39-kjP" secondAttribute="leading" constant="20" id="nHW-4X-nMV"/>
                             <constraint firstItem="gLW-Pa-zeJ" firstAttribute="top" secondItem="Mf5-Vj-8th" secondAttribute="bottom" constant="8" id="na1-MI-2UW"/>
+                            <constraint firstItem="7SX-pU-eOE" firstAttribute="top" secondItem="FxE-Wb-mdB" secondAttribute="bottom" constant="50" id="uDX-XR-t0r"/>
                         </constraints>
                         <viewLayoutGuide key="safeArea" id="T26-39-kjP"/>
                     </view>
