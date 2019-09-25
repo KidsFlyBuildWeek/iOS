@@ -11,6 +11,7 @@
 		86D3F3DB233C0BD7006904F6 /* KidsFlyConnectionApplyViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 86D3F3DA233C0BD7006904F6 /* KidsFlyConnectionApplyViewController.swift */; };
 		86D3F3DD233C0D67006904F6 /* AddFlightViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 86D3F3DC233C0D67006904F6 /* AddFlightViewController.swift */; };
 		86D3F3DF233C0F2D006904F6 /* HomeTripsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 86D3F3DE233C0F2D006904F6 /* HomeTripsViewController.swift */; };
+		86D3F3E1233C1967006904F6 /* HomeTripsTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 86D3F3E0233C1967006904F6 /* HomeTripsTableViewCell.swift */; };
 		A22ED225233AEBAC00177E01 /* SignUpLogIn.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A22ED224233AEBAC00177E01 /* SignUpLogIn.storyboard */; };
 		A22ED227233AEBCF00177E01 /* AddFlightView.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A22ED226233AEBCF00177E01 /* AddFlightView.storyboard */; };
 		A22ED229233AEBDB00177E01 /* HomeTripsView.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A22ED228233AEBDB00177E01 /* HomeTripsView.storyboard */; };
@@ -39,6 +40,7 @@
 		86D3F3DA233C0BD7006904F6 /* KidsFlyConnectionApplyViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KidsFlyConnectionApplyViewController.swift; sourceTree = "<group>"; };
 		86D3F3DC233C0D67006904F6 /* AddFlightViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddFlightViewController.swift; sourceTree = "<group>"; };
 		86D3F3DE233C0F2D006904F6 /* HomeTripsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeTripsViewController.swift; sourceTree = "<group>"; };
+		86D3F3E0233C1967006904F6 /* HomeTripsTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeTripsTableViewCell.swift; sourceTree = "<group>"; };
 		A22ED224233AEBAC00177E01 /* SignUpLogIn.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = SignUpLogIn.storyboard; sourceTree = "<group>"; };
 		A22ED226233AEBCF00177E01 /* AddFlightView.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = AddFlightView.storyboard; sourceTree = "<group>"; };
 		A22ED228233AEBDB00177E01 /* HomeTripsView.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = HomeTripsView.storyboard; sourceTree = "<group>"; };
@@ -154,6 +156,7 @@
 			isa = PBXGroup;
 			children = (
 				A27B73EB2339936B00F825CE /* ConnectionTripsTableViewCell.swift */,
+				86D3F3E0233C1967006904F6 /* HomeTripsTableViewCell.swift */,
 			);
 			path = Views;
 			sourceTree = "<group>";
@@ -271,6 +274,7 @@
 				A27B73C12339318C00F825CE /* ViewController.swift in Sources */,
 				A27B73EC2339936B00F825CE /* ConnectionTripsTableViewCell.swift in Sources */,
 				A27B73BD2339318C00F825CE /* AppDelegate.swift in Sources */,
+				86D3F3E1233C1967006904F6 /* HomeTripsTableViewCell.swift in Sources */,
 				A27B73BF2339318C00F825CE /* SceneDelegate.swift in Sources */,
 				A27B73E0233935AE00F825CE /* TripController.swift in Sources */,
 			);

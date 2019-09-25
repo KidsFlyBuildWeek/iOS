@@ -22,7 +22,7 @@
                                         <rect key="frame" x="0.0" y="0.0" width="340" height="479"/>
                                         <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
                                         <prototypes>
-                                            <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" preservesSuperviewLayoutMargins="YES" selectionStyle="default" indentationWidth="10" reuseIdentifier="myTripsTableViewCell" rowHeight="355" id="Sxz-yi-R8d">
+                                            <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" preservesSuperviewLayoutMargins="YES" selectionStyle="default" indentationWidth="10" reuseIdentifier="myTripsTableViewCell" rowHeight="355" id="Sxz-yi-R8d" customClass="HomeTripsTableViewCell" customModule="KidsFly" customModuleProvider="target">
                                                 <rect key="frame" x="0.0" y="28" width="340" height="355"/>
                                                 <autoresizingMask key="autoresizingMask"/>
                                                 <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" preservesSuperviewLayoutMargins="YES" insetsLayoutMarginsFromSafeArea="NO" tableViewCell="Sxz-yi-R8d" id="kcQ-jp-eV0">
@@ -118,9 +118,20 @@
                                                             <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                                             <fontDescription key="fontDescription" type="system" pointSize="9"/>
                                                             <state key="normal" title="See info"/>
+                                                            <connections>
+                                                                <action selector="seeInfoButtonTapped:" destination="Sxz-yi-R8d" eventType="touchUpInside" id="d83-Sl-4EG"/>
+                                                            </connections>
                                                         </button>
                                                     </subviews>
                                                 </tableViewCellContentView>
+                                                <connections>
+                                                    <outlet property="destinationLabel" destination="i9t-l6-198" id="p9N-0W-bh0"/>
+                                                    <outlet property="estimatedTimeOfArrival" destination="lXv-8g-yy1" id="phB-Jd-fko"/>
+                                                    <outlet property="flightConnectionName" destination="UpI-D9-7rY" id="YFx-nv-Xp6"/>
+                                                    <outlet property="flightName" destination="fkp-ts-gFE" id="9HX-Rc-1Fw"/>
+                                                    <outlet property="fromCityLabel" destination="KLF-s5-VgN" id="G1B-wf-G5l"/>
+                                                    <outlet property="statusLabel" destination="Htr-Xp-De0" id="P1p-xW-5C0"/>
+                                                </connections>
                                             </tableViewCell>
                                         </prototypes>
                                         <connections>
