@@ -8,6 +8,8 @@
 
 /* Begin PBXBuildFile section */
 		86D3F3D7233AFCC6006904F6 /* TripRepresentation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 86D3F3D6233AFCC6006904F6 /* TripRepresentation.swift */; };
+		86D3F3DB233C0BD7006904F6 /* KidsFlyConnectionApplyViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 86D3F3DA233C0BD7006904F6 /* KidsFlyConnectionApplyViewController.swift */; };
+		86D3F3DD233C0D67006904F6 /* AddFlightViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 86D3F3DC233C0D67006904F6 /* AddFlightViewController.swift */; };
 		A22ED225233AEBAC00177E01 /* SignUpLogIn.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A22ED224233AEBAC00177E01 /* SignUpLogIn.storyboard */; };
 		A22ED227233AEBCF00177E01 /* AddFlightView.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A22ED226233AEBCF00177E01 /* AddFlightView.storyboard */; };
 		A22ED229233AEBDB00177E01 /* HomeTripsView.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A22ED228233AEBDB00177E01 /* HomeTripsView.storyboard */; };
@@ -33,6 +35,8 @@
 
 /* Begin PBXFileReference section */
 		86D3F3D6233AFCC6006904F6 /* TripRepresentation.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TripRepresentation.swift; sourceTree = "<group>"; };
+		86D3F3DA233C0BD7006904F6 /* KidsFlyConnectionApplyViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KidsFlyConnectionApplyViewController.swift; sourceTree = "<group>"; };
+		86D3F3DC233C0D67006904F6 /* AddFlightViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddFlightViewController.swift; sourceTree = "<group>"; };
 		A22ED224233AEBAC00177E01 /* SignUpLogIn.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = SignUpLogIn.storyboard; sourceTree = "<group>"; };
 		A22ED226233AEBCF00177E01 /* AddFlightView.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = AddFlightView.storyboard; sourceTree = "<group>"; };
 		A22ED228233AEBDB00177E01 /* HomeTripsView.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = HomeTripsView.storyboard; sourceTree = "<group>"; };
@@ -116,6 +120,8 @@
 			isa = PBXGroup;
 			children = (
 				A27B73C02339318C00F825CE /* ViewController.swift */,
+				86D3F3DA233C0BD7006904F6 /* KidsFlyConnectionApplyViewController.swift */,
+				86D3F3DC233C0D67006904F6 /* AddFlightViewController.swift */,
 			);
 			path = "View Controllers";
 			sourceTree = "<group>";
@@ -250,7 +256,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				86D3F3DB233C0BD7006904F6 /* KidsFlyConnectionApplyViewController.swift in Sources */,
 				A22ED236233B32E800177E01 /* TravelerRepresentation.swift in Sources */,
+				86D3F3DD233C0D67006904F6 /* AddFlightViewController.swift in Sources */,
 				86D3F3D7233AFCC6006904F6 /* TripRepresentation.swift in Sources */,
 				A22ED232233AEFF500177E01 /* Trip+Convenience.swift in Sources */,
 				A22ED234233B303B00177E01 /* Traveler+Convenience.swift in Sources */,

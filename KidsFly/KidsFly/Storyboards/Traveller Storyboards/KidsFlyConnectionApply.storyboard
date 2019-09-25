@@ -7,10 +7,10 @@
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
     </dependencies>
     <scenes>
-        <!--View Controller-->
+        <!--Kids Fly Connection Apply View Controller-->
         <scene sceneID="Ofe-K9-fkd">
             <objects>
-                <viewController id="cDM-PU-yJZ" sceneMemberID="viewController">
+                <viewController id="cDM-PU-yJZ" customClass="KidsFlyConnectionApplyViewController" customModule="KidsFly" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="q6u-Zl-B6o">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -70,20 +70,34 @@
                                     <segment title="Yes"/>
                                     <segment title="No"/>
                                 </segments>
+                                <connections>
+                                    <action selector="felonySegmentedControl:" destination="cDM-PU-yJZ" eventType="valueChanged" id="Sga-qF-Aff"/>
+                                </connections>
                             </segmentedControl>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="ZeB-5x-LuT">
-                                <rect key="frame" x="190" y="778" width="49" height="30"/>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="ZeB-5x-LuT">
+                                <rect key="frame" x="71" y="758" width="272" height="62"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <state key="normal" title="Submit"/>
+                                <state key="normal" title="Submit" image="Submit"/>
+                                <connections>
+                                    <action selector="submitButtonPressed:" destination="cDM-PU-yJZ" eventType="touchUpInside" id="Nk2-Dd-XBj"/>
+                                </connections>
                             </button>
                         </subviews>
                         <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
                         <viewLayoutGuide key="safeArea" id="wPS-84-vqd"/>
                     </view>
+                    <connections>
+                        <outlet property="passwordTextField" destination="ZmB-t2-vCg" id="lYI-8x-PyM"/>
+                        <outlet property="tellUsAboutYourselfTextView" destination="e7Y-0J-2B5" id="heX-wW-9W4"/>
+                        <outlet property="usernameTextField" destination="0ay-uO-hRR" id="H2d-3I-a0g"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="XJg-p6-XZv" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="18.840579710144929" y="83.705357142857139"/>
         </scene>
     </scenes>
+    <resources>
+        <image name="Submit" width="267" height="62"/>
+    </resources>
 </document>
