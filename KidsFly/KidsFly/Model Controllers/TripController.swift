@@ -8,6 +8,17 @@
 
 import Foundation
 
+enum HTTPMethod: String {
+    case get = "GET"
+    case put = "PUT"
+    case post = "POST"
+    case delete = "DELETE"
+}
+
 class TripController {
+    let baseURL = URL(string: "https://kidsflymockdata.firebaseio.com/")
     
+    func put(trip: Trip, completion: @escaping () -> Void = { }) {
+        let requestURL = baseURL?.appendingPathExtension("json")
+    }
 }
