@@ -15,7 +15,7 @@ extension Trip {
         guard let date = date,
             let luggagetype = luggagetype else { return nil }
         
-        return TripRepresentation(tripid: tripid, date: date, passengercount: passengercount, luggagetype: luggagetype)
+        return TripRepresentation(tripid: Int(tripid), date: date, passengercount: Int(passengercount), luggagetype: luggagetype)
     }
     
     convenience init(tripid: Int32, date: String, passengercount: Int32, luggagetype: String, context: NSManagedObjectContext) {
