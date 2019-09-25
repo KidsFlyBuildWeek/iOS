@@ -15,6 +15,8 @@
 		A22ED22D233AEC4D00177E01 /* CoreDataStack.swift in Sources */ = {isa = PBXBuildFile; fileRef = A22ED22C233AEC4D00177E01 /* CoreDataStack.swift */; };
 		A22ED230233AED8500177E01 /* Trip.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = A22ED22E233AED8500177E01 /* Trip.xcdatamodeld */; };
 		A22ED232233AEFF500177E01 /* Trip+Convenience.swift in Sources */ = {isa = PBXBuildFile; fileRef = A22ED231233AEFF500177E01 /* Trip+Convenience.swift */; };
+		A22ED234233B303B00177E01 /* Traveler+Convenience.swift in Sources */ = {isa = PBXBuildFile; fileRef = A22ED233233B303B00177E01 /* Traveler+Convenience.swift */; };
+		A22ED236233B32E800177E01 /* TravelerRepresentation.swift in Sources */ = {isa = PBXBuildFile; fileRef = A22ED235233B32E800177E01 /* TravelerRepresentation.swift */; };
 		A27B73BD2339318C00F825CE /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A27B73BC2339318C00F825CE /* AppDelegate.swift */; };
 		A27B73BF2339318C00F825CE /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A27B73BE2339318C00F825CE /* SceneDelegate.swift */; };
 		A27B73C12339318C00F825CE /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A27B73C02339318C00F825CE /* ViewController.swift */; };
@@ -38,6 +40,8 @@
 		A22ED22C233AEC4D00177E01 /* CoreDataStack.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CoreDataStack.swift; sourceTree = "<group>"; };
 		A22ED22F233AED8500177E01 /* Trip.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Trip.xcdatamodel; sourceTree = "<group>"; };
 		A22ED231233AEFF500177E01 /* Trip+Convenience.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Trip+Convenience.swift"; sourceTree = "<group>"; };
+		A22ED233233B303B00177E01 /* Traveler+Convenience.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Traveler+Convenience.swift"; sourceTree = "<group>"; };
+		A22ED235233B32E800177E01 /* TravelerRepresentation.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TravelerRepresentation.swift; sourceTree = "<group>"; };
 		A27B73B92339318C00F825CE /* KidsFly.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = KidsFly.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		A27B73BC2339318C00F825CE /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		A27B73BE2339318C00F825CE /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -121,8 +125,10 @@
 			children = (
 				A22ED22C233AEC4D00177E01 /* CoreDataStack.swift */,
 				A22ED231233AEFF500177E01 /* Trip+Convenience.swift */,
+				A22ED233233B303B00177E01 /* Traveler+Convenience.swift */,
 				A22ED22E233AED8500177E01 /* Trip.xcdatamodeld */,
 				86D3F3D6233AFCC6006904F6 /* TripRepresentation.swift */,
+				A22ED235233B32E800177E01 /* TravelerRepresentation.swift */,
 			);
 			path = Models;
 			sourceTree = "<group>";
@@ -244,8 +250,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A22ED236233B32E800177E01 /* TravelerRepresentation.swift in Sources */,
 				86D3F3D7233AFCC6006904F6 /* TripRepresentation.swift in Sources */,
 				A22ED232233AEFF500177E01 /* Trip+Convenience.swift in Sources */,
+				A22ED234233B303B00177E01 /* Traveler+Convenience.swift in Sources */,
 				A22ED230233AED8500177E01 /* Trip.xcdatamodeld in Sources */,
 				A22ED22D233AEC4D00177E01 /* CoreDataStack.swift in Sources */,
 				A27B73C12339318C00F825CE /* ViewController.swift in Sources */,
