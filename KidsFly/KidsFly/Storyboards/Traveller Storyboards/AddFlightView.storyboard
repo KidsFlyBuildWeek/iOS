@@ -98,11 +98,22 @@
                                 <rect key="frame" x="67" y="800" width="281" height="62"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <state key="normal" title="Schedule" image="Schedule"/>
+                                <connections>
+                                    <action selector="scheduleButtonPressed:" destination="HbF-so-p4X" eventType="touchUpInside" id="g9w-8d-G9b"/>
+                                </connections>
                             </button>
                         </subviews>
                         <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
                         <viewLayoutGuide key="safeArea" id="Bfr-uA-DCg"/>
                     </view>
+                    <connections>
+                        <outlet property="airlineNameTextField" destination="clu-Ao-jVU" id="9jx-Y2-TJe"/>
+                        <outlet property="airportNameTextField" destination="AhR-Ws-XVg" id="sAa-Z3-s9U"/>
+                        <outlet property="departureTimeTextField" destination="rVM-Mp-BnD" id="Hlj-dg-AWj"/>
+                        <outlet property="numberOfBagsTextField" destination="Eaq-gP-D4x" id="7sD-zQ-Uzn"/>
+                        <outlet property="numberOfKidsTextField" destination="aeq-dO-Mez" id="sBo-tG-dNH"/>
+                        <outlet property="specialNeedsTextView" destination="CpD-CW-s6X" id="w5g-x4-JhE"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="ztI-Yu-U39" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>

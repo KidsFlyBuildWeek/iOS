@@ -10,21 +10,20 @@ import UIKit
 
 class AddFlightViewController: UIViewController {
 
+    @IBOutlet weak var airportNameTextField: UITextField!
+    @IBOutlet weak var airlineNameTextField: UITextField!
+    @IBOutlet weak var departureTimeTextField: UITextField!
+    @IBOutlet weak var numberOfBagsTextField: UITextField!
+    @IBOutlet weak var numberOfKidsTextField: UITextField!
+    @IBOutlet weak var specialNeedsTextView: UITextView!
+    
     override func viewDidLoad() {
         super.viewDidLoad()
 
         // Do any additional setup after loading the view.
     }
-    
 
-    /*
-    // MARK: - Navigation
 
-    // In a storyboard-based application, you will often want to do a little preparation before navigation
-    override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
-        // Get the new view controller using segue.destination.
-        // Pass the selected object to the new view controller.
+    @IBAction func scheduleButtonPressed(_ sender: Any) {
     }
-    */
-
 }
