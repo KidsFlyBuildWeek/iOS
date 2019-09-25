@@ -15,7 +15,7 @@ enum HTTPMethod: String {
     case delete = "DELETE"
 }
 
-class TripController {
+class ConnectionTripController {
     let baseURL = URL(string: "https://kidsflymockdata.firebaseio.com/")
     
     func put(trip: Trip, completion: @escaping () -> Void = { }) {
