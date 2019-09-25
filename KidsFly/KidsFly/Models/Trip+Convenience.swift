@@ -10,6 +10,14 @@ import Foundation
 import CoreData
 
 extension Trip {
+    
+    var tripRepresentation: TripRepresentation? {
+        guard let date = date,
+            let luggagetype = luggagetype else { return nil }
+        
+        return TripRepresentation(tripid: tripid, date: date, passengercount: passengercount, luggagetype: luggagetype)
+    }
+    
     convenience init(tripid: Int32, date: String, passengercount: Int32, luggagetype: String, context: NSManagedObjectContext) {
         self.init(context: context)
         

@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		86D3F3D7233AFCC6006904F6 /* TripRepresentation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 86D3F3D6233AFCC6006904F6 /* TripRepresentation.swift */; };
 		A22ED225233AEBAC00177E01 /* SignUpLogIn.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A22ED224233AEBAC00177E01 /* SignUpLogIn.storyboard */; };
 		A22ED227233AEBCF00177E01 /* AddFlightView.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A22ED226233AEBCF00177E01 /* AddFlightView.storyboard */; };
 		A22ED229233AEBDB00177E01 /* HomeTripsView.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A22ED228233AEBDB00177E01 /* HomeTripsView.storyboard */; };
@@ -21,7 +22,7 @@
 		A27B73C62339318E00F825CE /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A27B73C52339318E00F825CE /* Assets.xcassets */; };
 		A27B73C92339318E00F825CE /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A27B73C72339318E00F825CE /* LaunchScreen.storyboard */; };
 		A27B73D72339353300F825CE /* Settings.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A27B73D62339353300F825CE /* Settings.storyboard */; };
-		A27B73E0233935AE00F825CE /* FlightController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A27B73DF233935AE00F825CE /* FlightController.swift */; };
+		A27B73E0233935AE00F825CE /* TripController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A27B73DF233935AE00F825CE /* TripController.swift */; };
 		A27B73E523397FD800F825CE /* Connection.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A27B73E423397FD800F825CE /* Connection.storyboard */; };
 		A27B73E82339807000F825CE /* ConnectionHome.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A27B73E72339807000F825CE /* ConnectionHome.storyboard */; };
 		A27B73EA2339809A00F825CE /* ConnectionSettings.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A27B73E92339809A00F825CE /* ConnectionSettings.storyboard */; };
@@ -29,6 +30,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		86D3F3D6233AFCC6006904F6 /* TripRepresentation.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TripRepresentation.swift; sourceTree = "<group>"; };
 		A22ED224233AEBAC00177E01 /* SignUpLogIn.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = SignUpLogIn.storyboard; sourceTree = "<group>"; };
 		A22ED226233AEBCF00177E01 /* AddFlightView.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = AddFlightView.storyboard; sourceTree = "<group>"; };
 		A22ED228233AEBDB00177E01 /* HomeTripsView.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = HomeTripsView.storyboard; sourceTree = "<group>"; };
@@ -45,7 +47,7 @@
 		A27B73C82339318E00F825CE /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		A27B73CA2339318E00F825CE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		A27B73D62339353300F825CE /* Settings.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = Settings.storyboard; sourceTree = "<group>"; };
-		A27B73DF233935AE00F825CE /* FlightController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FlightController.swift; sourceTree = "<group>"; };
+		A27B73DF233935AE00F825CE /* TripController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TripController.swift; sourceTree = "<group>"; };
 		A27B73E423397FD800F825CE /* Connection.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = Connection.storyboard; sourceTree = "<group>"; };
 		A27B73E72339807000F825CE /* ConnectionHome.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = ConnectionHome.storyboard; sourceTree = "<group>"; };
 		A27B73E92339809A00F825CE /* ConnectionSettings.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = ConnectionSettings.storyboard; sourceTree = "<group>"; };
@@ -120,6 +122,7 @@
 				A22ED22C233AEC4D00177E01 /* CoreDataStack.swift */,
 				A22ED231233AEFF500177E01 /* Trip+Convenience.swift */,
 				A22ED22E233AED8500177E01 /* Trip.xcdatamodeld */,
+				86D3F3D6233AFCC6006904F6 /* TripRepresentation.swift */,
 			);
 			path = Models;
 			sourceTree = "<group>";
@@ -127,7 +130,7 @@
 		A27B73E1233935BC00F825CE /* Model Controllers */ = {
 			isa = PBXGroup;
 			children = (
-				A27B73DF233935AE00F825CE /* FlightController.swift */,
+				A27B73DF233935AE00F825CE /* TripController.swift */,
 			);
 			path = "Model Controllers";
 			sourceTree = "<group>";
@@ -241,6 +244,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				86D3F3D7233AFCC6006904F6 /* TripRepresentation.swift in Sources */,
 				A22ED232233AEFF500177E01 /* Trip+Convenience.swift in Sources */,
 				A22ED230233AED8500177E01 /* Trip.xcdatamodeld in Sources */,
 				A22ED22D233AEC4D00177E01 /* CoreDataStack.swift in Sources */,
@@ -248,7 +252,7 @@
 				A27B73EC2339936B00F825CE /* ConnectionTripsTableViewCell.swift in Sources */,
 				A27B73BD2339318C00F825CE /* AppDelegate.swift in Sources */,
 				A27B73BF2339318C00F825CE /* SceneDelegate.swift in Sources */,
-				A27B73E0233935AE00F825CE /* FlightController.swift in Sources */,
+				A27B73E0233935AE00F825CE /* TripController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
