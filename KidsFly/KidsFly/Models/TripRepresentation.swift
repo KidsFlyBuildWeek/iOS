@@ -10,8 +10,8 @@ import Foundation
 
 struct TripRepresentation: Codable {
     
-    var tripid: Int
+    var tripid: Int32
     var date: String
-    var passengercount: Int
+    var passengercount: Int32
     var luggagetype: String
 }
