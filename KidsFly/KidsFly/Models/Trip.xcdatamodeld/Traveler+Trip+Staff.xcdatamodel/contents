@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<model type="com.apple.IDECoreDataModeler.DataModel" documentVersion="1.0" lastSavedToolsVersion="14903" systemVersion="18G95" minimumToolsVersion="Automatic" sourceLanguage="Swift" userDefinedModelVersionIdentifier="">
+    <entity name="Staff" representedClassName="Staff" syncable="YES" codeGenerationType="class">
+        <attribute name="birthdate" optional="YES" attributeType="String"/>
+        <attribute name="email" optional="YES" attributeType="String"/>
+        <attribute name="location" optional="YES" attributeType="String"/>
+        <attribute name="name" optional="YES" attributeType="String"/>
+        <attribute name="password" optional="YES" attributeType="String"/>
+        <attribute name="phone" optional="YES" attributeType="String"/>
+        <attribute name="staffid" optional="YES" attributeType="Integer 32" defaultValueString="0" usesScalarValueType="YES"/>
+        <attribute name="staffUser" optional="YES" attributeType="String"/>
+        <attribute name="status" optional="YES" attributeType="String"/>
+        <attribute name="username" optional="YES" attributeType="String"/>
+        <relationship name="trips" optional="YES" toMany="YES" deletionRule="Nullify" destinationEntity="Trip" inverseName="staff" inverseEntity="Trip"/>
+    </entity>
+    <entity name="Traveler" representedClassName="Traveler" syncable="YES" codeGenerationType="class">
+        <attribute name="address" optional="YES" attributeType="String"/>
+        <attribute name="airport" optional="YES" attributeType="String"/>
+        <attribute name="email" optional="YES" attributeType="String"/>
+        <attribute name="name" optional="YES" attributeType="String"/>
+        <attribute name="parentid" optional="YES" attributeType="Integer 32" defaultValueString="0" usesScalarValueType="YES"/>
+        <attribute name="password" optional="YES" attributeType="String"/>
+        <attribute name="phone" optional="YES" attributeType="String"/>
+        <attribute name="status" optional="YES" attributeType="String"/>
+        <attribute name="username" optional="YES" attributeType="String"/>
+        <relationship name="trips" optional="YES" toMany="YES" deletionRule="Nullify" ordered="YES" destinationEntity="Trip" inverseName="traveler" inverseEntity="Trip"/>
+    </entity>
+    <entity name="Trip" representedClassName="Trip" syncable="YES" codeGenerationType="class">
+        <attribute name="airport" optional="YES" attributeType="String"/>
+        <attribute name="childcount" optional="YES" attributeType="Integer 32" defaultValueString="0" usesScalarValueType="YES"/>
+        <attribute name="date" optional="YES" attributeType="String"/>
+        <attribute name="luggagetype" optional="YES" attributeType="String"/>
+        <attribute name="passengercount" optional="YES" attributeType="Integer 32" defaultValueString="0" usesScalarValueType="YES"/>
+        <attribute name="tripid" optional="YES" attributeType="Integer 32" defaultValueString="0" usesScalarValueType="YES"/>
+        <relationship name="staff" optional="YES" maxCount="1" deletionRule="Nullify" destinationEntity="Staff" inverseName="trips" inverseEntity="Staff"/>
+        <relationship name="traveler" optional="YES" maxCount="1" deletionRule="Nullify" destinationEntity="Traveler" inverseName="trips" inverseEntity="Traveler"/>
+    </entity>
+    <elements>
+        <element name="Staff" positionX="197.85546875" positionY="-251.4609375" width="128" height="208"/>
+        <element name="Traveler" positionX="-345.03125" positionY="-229.58203125" width="128" height="193"/>
+        <element name="Trip" positionX="-63" positionY="-18" width="128" height="163"/>
+    </elements>
+</model>

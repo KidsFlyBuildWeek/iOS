@@ -8,10 +8,12 @@
 
 import Foundation
 
+// MARK: - Trip
 struct TripRepresentation: Codable {
-    
-    var tripid: Int
-    var date: String
-    var passengercount: Int
-    var luggagetype: String
+    let tripid: Int?
+    let date: String
+    let passengercount, childcount: Int
+    let airport, luggagetype: String
+    let staffUser: String?
 }
+

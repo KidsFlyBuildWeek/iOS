@@ -8,6 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		86D3F3D7233AFCC6006904F6 /* TripRepresentation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 86D3F3D6233AFCC6006904F6 /* TripRepresentation.swift */; };
+		A20D313B233D5B8D0016EA43 /* StaffRepresentation.swift in Sources */ = {isa = PBXBuildFile; fileRef = A20D313A233D5B8D0016EA43 /* StaffRepresentation.swift */; };
 		A22ED225233AEBAC00177E01 /* SignUpLogIn.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A22ED224233AEBAC00177E01 /* SignUpLogIn.storyboard */; };
 		A22ED227233AEBCF00177E01 /* AddFlightView.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A22ED226233AEBCF00177E01 /* AddFlightView.storyboard */; };
 		A22ED229233AEBDB00177E01 /* HomeTripsView.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A22ED228233AEBDB00177E01 /* HomeTripsView.storyboard */; };
@@ -17,6 +18,8 @@
 		A22ED232233AEFF500177E01 /* Trip+Convenience.swift in Sources */ = {isa = PBXBuildFile; fileRef = A22ED231233AEFF500177E01 /* Trip+Convenience.swift */; };
 		A22ED234233B303B00177E01 /* Traveler+Convenience.swift in Sources */ = {isa = PBXBuildFile; fileRef = A22ED233233B303B00177E01 /* Traveler+Convenience.swift */; };
 		A22ED236233B32E800177E01 /* TravelerRepresentation.swift in Sources */ = {isa = PBXBuildFile; fileRef = A22ED235233B32E800177E01 /* TravelerRepresentation.swift */; };
+		A26E751E233D762600677DE6 /* TravelerController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A26E751D233D762600677DE6 /* TravelerController.swift */; };
+		A26E7520233D763500677DE6 /* StaffController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A26E751F233D763500677DE6 /* StaffController.swift */; };
 		A27B73BD2339318C00F825CE /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A27B73BC2339318C00F825CE /* AppDelegate.swift */; };
 		A27B73BF2339318C00F825CE /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A27B73BE2339318C00F825CE /* SceneDelegate.swift */; };
 		A27B73C12339318C00F825CE /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A27B73C02339318C00F825CE /* ViewController.swift */; };
@@ -32,6 +35,8 @@
 
 /* Begin PBXFileReference section */
 		86D3F3D6233AFCC6006904F6 /* TripRepresentation.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TripRepresentation.swift; sourceTree = "<group>"; };
+		A20D3139233D47F60016EA43 /* Traveler+Trip+Staff.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = "Traveler+Trip+Staff.xcdatamodel"; sourceTree = "<group>"; };
+		A20D313A233D5B8D0016EA43 /* StaffRepresentation.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StaffRepresentation.swift; sourceTree = "<group>"; };
 		A22ED224233AEBAC00177E01 /* SignUpLogIn.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = SignUpLogIn.storyboard; sourceTree = "<group>"; };
 		A22ED226233AEBCF00177E01 /* AddFlightView.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = AddFlightView.storyboard; sourceTree = "<group>"; };
 		A22ED228233AEBDB00177E01 /* HomeTripsView.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = HomeTripsView.storyboard; sourceTree = "<group>"; };
@@ -41,6 +46,8 @@
 		A22ED231233AEFF500177E01 /* Trip+Convenience.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Trip+Convenience.swift"; sourceTree = "<group>"; };
 		A22ED233233B303B00177E01 /* Traveler+Convenience.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Traveler+Convenience.swift"; sourceTree = "<group>"; };
 		A22ED235233B32E800177E01 /* TravelerRepresentation.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TravelerRepresentation.swift; sourceTree = "<group>"; };
+		A26E751D233D762600677DE6 /* TravelerController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TravelerController.swift; sourceTree = "<group>"; };
+		A26E751F233D763500677DE6 /* StaffController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StaffController.swift; sourceTree = "<group>"; };
 		A27B73B92339318C00F825CE /* KidsFly.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = KidsFly.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		A27B73BC2339318C00F825CE /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		A27B73BE2339318C00F825CE /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -127,6 +134,7 @@
 				A22ED22E233AED8500177E01 /* Trip.xcdatamodeld */,
 				86D3F3D6233AFCC6006904F6 /* TripRepresentation.swift */,
 				A22ED235233B32E800177E01 /* TravelerRepresentation.swift */,
+				A20D313A233D5B8D0016EA43 /* StaffRepresentation.swift */,
 			);
 			path = Models;
 			sourceTree = "<group>";
@@ -134,6 +142,8 @@
 		A27B73E1233935BC00F825CE /* Model Controllers */ = {
 			isa = PBXGroup;
 			children = (
+				A26E751D233D762600677DE6 /* TravelerController.swift */,
+				A26E751F233D763500677DE6 /* StaffController.swift */,
 			);
 			path = "Model Controllers";
 			sourceTree = "<group>";
@@ -248,8 +258,11 @@
 			buildActionMask = 2147483647;
 			files = (
 				A22ED236233B32E800177E01 /* TravelerRepresentation.swift in Sources */,
+				A20D313B233D5B8D0016EA43 /* StaffRepresentation.swift in Sources */,
 				86D3F3D7233AFCC6006904F6 /* TripRepresentation.swift in Sources */,
 				A22ED232233AEFF500177E01 /* Trip+Convenience.swift in Sources */,
+				A26E7520233D763500677DE6 /* StaffController.swift in Sources */,
+				A26E751E233D762600677DE6 /* TravelerController.swift in Sources */,
 				A22ED234233B303B00177E01 /* Traveler+Convenience.swift in Sources */,
 				A22ED230233AED8500177E01 /* Trip.xcdatamodeld in Sources */,
 				A22ED22D233AEC4D00177E01 /* CoreDataStack.swift in Sources */,
@@ -457,9 +470,10 @@
 		A22ED22E233AED8500177E01 /* Trip.xcdatamodeld */ = {
 			isa = XCVersionGroup;
 			children = (
+				A20D3139233D47F60016EA43 /* Traveler+Trip+Staff.xcdatamodel */,
 				A22ED22F233AED8500177E01 /* Trip.xcdatamodel */,
 			);
-			currentVersion = A22ED22F233AED8500177E01 /* Trip.xcdatamodel */;
+			currentVersion = A20D3139233D47F60016EA43 /* Traveler+Trip+Staff.xcdatamodel */;
 			path = Trip.xcdatamodeld;
 			sourceTree = "<group>";
 			versionGroupType = wrapper.xcdatamodel;

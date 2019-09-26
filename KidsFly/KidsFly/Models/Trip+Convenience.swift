@@ -13,12 +13,15 @@ extension Trip {
     
     var tripRepresentation: TripRepresentation? {
         guard let date = date,
-            let luggagetype = luggagetype else { return nil }
+            let luggagetype = luggagetype,
+            let airport = airport,
+            let staffUser = staff else { return nil }
+       
         
-        return TripRepresentation(tripid: Int(tripid), date: date, passengercount: Int(passengercount), luggagetype: luggagetype)
+        return TripRepresentation(tripid: Int(tripid), date: date, passengercount: Int(passengercount), childcount: Int(passengercount), airport: airport, luggagetype: luggagetype, staffUser: staffUser.name)
     }
     
-    convenience init(tripid: Int32, date: String, passengercount: Int32, luggagetype: String, context: NSManagedObjectContext) {
+    convenience init(tripid: Int32, date: String, passengercount: Int32, childcount: Int32, airport: String, luggagetype: String, staff: Staff, context: NSManagedObjectContext) {
         self.init(context: context)
         
         self.tripid = tripid
