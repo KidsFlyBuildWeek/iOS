@@ -7,10 +7,10 @@
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
     </dependencies>
     <scenes>
-        <!--View Controller-->
+        <!--Main View Controller-->
         <scene sceneID="uRX-s5-eD3">
             <objects>
-                <viewController id="Yz9-GU-AHB" sceneMemberID="viewController">
+                <viewController id="Yz9-GU-AHB" customClass="MainViewController" customModule="KidsFly" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="fPk-X8-33o">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -55,7 +55,7 @@
                                             <constraint firstAttribute="height" constant="34" id="Jjk-au-hdx"/>
                                         </constraints>
                                         <fontDescription key="fontDescription" type="system" pointSize="14"/>
-                                        <textInputTraits key="textInputTraits"/>
+                                        <textInputTraits key="textInputTraits" secureTextEntry="YES"/>
                                     </textField>
                                 </subviews>
                                 <constraints>
@@ -75,6 +75,9 @@
                                 <state key="normal" title="Sign Up">
                                     <color key="titleColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 </state>
+                                <connections>
+                                    <action selector="signUpButtonTapped:" destination="Yz9-GU-AHB" eventType="touchUpInside" id="GZC-ZM-v6c"/>
+                                </connections>
                             </button>
                             <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" alignment="top" spacing="8" id="pdZ-vZ-LgL">
                                 <rect key="frame" x="149" y="444" width="116" height="8"/>
@@ -108,6 +111,9 @@
                                     <segment title="Sign In"/>
                                 </segments>
                                 <color key="tintColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <connections>
+                                    <action selector="loginTypeChanged:" destination="Yz9-GU-AHB" eventType="valueChanged" id="kU4-xa-QP0"/>
+                                </connections>
                             </segmentedControl>
                             <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" alignment="top" spacing="8" translatesAutoresizingMaskIntoConstraints="NO" id="wAx-pj-zMe">
                                 <rect key="frame" x="40" y="260" width="334" height="62.5"/>
@@ -272,7 +278,23 @@
                         <viewLayoutGuide key="safeArea" id="lCP-R3-G6F"/>
                     </view>
                     <connections>
-                        <segue destination="YyU-9u-ta8" kind="presentation" id="WBX-hP-vVb"/>
+                        <outlet property="addressLabel" destination="Etn-Kv-Xp9" id="npz-8x-R6z"/>
+                        <outlet property="addressTextField" destination="zt3-dT-vpW" id="iX3-WC-tqL"/>
+                        <outlet property="airportLabel" destination="01L-Uh-qMK" id="nLC-63-Xwh"/>
+                        <outlet property="airportTextField" destination="OI9-0u-yqf" id="HNL-HG-tEL"/>
+                        <outlet property="emailLabel" destination="mL7-JU-ceK" id="65q-m4-jp1"/>
+                        <outlet property="emailTextField" destination="CtI-CB-WUd" id="k99-zB-UBd"/>
+                        <outlet property="loginTypeSegmentedControl" destination="GEw-RY-DTH" id="kX6-JO-Mx2"/>
+                        <outlet property="nameLabel" destination="TL3-57-f1b" id="UDM-dS-Evh"/>
+                        <outlet property="nameTextField" destination="s4q-nV-shL" id="0ax-y9-OyV"/>
+                        <outlet property="passwordLabel" destination="sMr-55-wwV" id="cGW-g5-eOO"/>
+                        <outlet property="passwordTextField" destination="Ks3-B7-KYA" id="d9H-S9-toK"/>
+                        <outlet property="phoneLabel" destination="2gb-Ti-THN" id="rNn-DV-P0q"/>
+                        <outlet property="phoneTextField" destination="8M3-Ga-ZZX" id="7IM-NU-GPC"/>
+                        <outlet property="signUpButton" destination="zQz-Oq-lsL" id="gxW-JX-Ox1"/>
+                        <outlet property="usernameLabel" destination="Mlg-E7-mkt" id="vBx-Nn-4PS"/>
+                        <outlet property="usernameTextField" destination="nlS-LP-ZnO" id="G9a-Kr-CH8"/>
+                        <segue destination="YyU-9u-ta8" kind="presentation" identifier="TravelerSegue" id="WBX-hP-vVb"/>
                         <segue destination="rCu-FC-ZUR" kind="presentation" id="v6c-k3-hBz"/>
                     </connections>
                 </viewController>
@@ -288,10 +310,10 @@
             </objects>
             <point key="canvasLocation" x="917" y="426"/>
         </scene>
-        <!--Traveller-->
+        <!--HomeTripsView-->
         <scene sceneID="q1R-Nt-m7b">
             <objects>
-                <viewControllerPlaceholder storyboardName="Traveller" id="YyU-9u-ta8" sceneMemberID="viewController">
+                <viewControllerPlaceholder storyboardName="HomeTripsView" id="YyU-9u-ta8" sceneMemberID="viewController">
                     <navigationItem key="navigationItem" id="g6a-uF-QN9"/>
                 </viewControllerPlaceholder>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="IID-vE-FXd" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>

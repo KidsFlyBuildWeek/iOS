@@ -10,8 +10,9 @@ import Foundation
 
 // MARK: - TravelerElement
 struct TravelerRepresentation: Codable {
-    let parentid: Int
+    let parentid: Int?
     let username, password, phone, email: String
-    let name, address, airport, status: String
+    let name, address, airport: String
+    let status: String?
     let trips: [TripRepresentation]
 }

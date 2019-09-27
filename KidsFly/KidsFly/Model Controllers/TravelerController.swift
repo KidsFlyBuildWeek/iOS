@@ -31,31 +31,31 @@ class TravelController {
     
     // MARK: - Properties
     let baseURL = URL(string: "https://kidsflybackend.herokuapp.com")!
-    
+    static let shared = TravelController()
     var bearer: Bearer?
     
     // The Error? in the completion closure lets us return an error to the view controller for further error handling.
     
     // MARK: - createNewTraveler
-       func createNewTraveler(with user: TravelerRepresentation, completion: @escaping (NetworkError?) -> Void) {
-        
-        
+    func signUp(with user: TravelerRepresentation, completion: @escaping (NetworkError?) -> Void = { _ in }) {
+
+
         let signUpURL = baseURL
                 .appendingPathComponent("parents")
                 .appendingPathComponent("new")
-        
+
         // Explains what headerfield values are.
         /* https://en.wikipedia.org/wiki/List_of_HTTP_header_fields#Field_values */
         var request = URLRequest(url: signUpURL)
         request.httpMethod = HTTPMethod.post.rawValue
         request.setValue("application/json", forHTTPHeaderField: "Content-Type")
-        
+
         let encoder = JSONEncoder()
-        
+
         do {
             // Convert the User object into JSON data.
             let userData = try encoder.encode(user)
-            
+
             // Attach the user JSON to the URLRequest
             request.httpBody = userData
         } catch {
@@ -63,15 +63,15 @@ class TravelController {
             completion(.encodingError)
             return
         }
-        
+
         URLSession.shared.dataTask(with: request) { (data, response, error) in
-            
+
             if let response = response as? HTTPURLResponse,
                 response.statusCode != 200 {
                 completion(.responseError)
                 return
             }
-            
+
             if let error = error {
                 NSLog("Error creating user on server: \(error)")
                 completion(.otherError)
@@ -183,5 +183,11 @@ class TravelController {
         }.resume()
     }
     
-    
+    // MARK: - CoreData Create Traveler
+    func createTraveler(with travelerRepresentation: TravelerRepresentation) {
+        _ = Traveler(travelerRepresentation: travelerRepresentation, context: CoreDataStack.shared.mainContext)
+        
+        CoreDataStack.shared.save()
+        signUp(with: travelerRepresentation)
+    }
 }

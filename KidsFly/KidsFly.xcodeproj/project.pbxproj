@@ -25,6 +25,7 @@
 		A26E7526233DCDCA00677DE6 /* KidsFlyConnectionApplyViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A26E7525233DCDCA00677DE6 /* KidsFlyConnectionApplyViewController.swift */; };
 		A26E7528233DCE2D00677DE6 /* HomeTripsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A26E7527233DCE2D00677DE6 /* HomeTripsViewController.swift */; };
 		A26E752A233DCE7800677DE6 /* HomeTripsTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = A26E7529233DCE7800677DE6 /* HomeTripsTableViewCell.swift */; };
+		A26E752C233DF75A00677DE6 /* MainViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A26E752B233DF75A00677DE6 /* MainViewController.swift */; };
 		A27B73BD2339318C00F825CE /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A27B73BC2339318C00F825CE /* AppDelegate.swift */; };
 		A27B73BF2339318C00F825CE /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A27B73BE2339318C00F825CE /* SceneDelegate.swift */; };
 		A27B73C42339318C00F825CE /* Traveller.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A27B73C22339318C00F825CE /* Traveller.storyboard */; };
@@ -57,6 +58,7 @@
 		A26E7525233DCDCA00677DE6 /* KidsFlyConnectionApplyViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KidsFlyConnectionApplyViewController.swift; sourceTree = "<group>"; };
 		A26E7527233DCE2D00677DE6 /* HomeTripsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeTripsViewController.swift; sourceTree = "<group>"; };
 		A26E7529233DCE7800677DE6 /* HomeTripsTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeTripsTableViewCell.swift; sourceTree = "<group>"; };
+		A26E752B233DF75A00677DE6 /* MainViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainViewController.swift; sourceTree = "<group>"; };
 		A27B73B92339318C00F825CE /* KidsFly.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = KidsFly.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		A27B73BC2339318C00F825CE /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		A27B73BE2339318C00F825CE /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -131,6 +133,7 @@
 				A26E7523233DCCBE00677DE6 /* AddFlightViewController.swift */,
 				A26E7525233DCDCA00677DE6 /* KidsFlyConnectionApplyViewController.swift */,
 				A26E7527233DCE2D00677DE6 /* HomeTripsViewController.swift */,
+				A26E752B233DF75A00677DE6 /* MainViewController.swift */,
 			);
 			path = "View Controllers";
 			sourceTree = "<group>";
@@ -284,6 +287,7 @@
 				A26E7522233DA8A000677DE6 /* Bearer.swift in Sources */,
 				A26E7524233DCCBE00677DE6 /* AddFlightViewController.swift in Sources */,
 				A27B73EC2339936B00F825CE /* ConnectionTripsTableViewCell.swift in Sources */,
+				A26E752C233DF75A00677DE6 /* MainViewController.swift in Sources */,
 				A27B73BD2339318C00F825CE /* AppDelegate.swift in Sources */,
 				A27B73BF2339318C00F825CE /* SceneDelegate.swift in Sources */,
 			);

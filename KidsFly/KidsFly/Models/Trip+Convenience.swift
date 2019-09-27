@@ -21,7 +21,7 @@ extension Trip {
         return TripRepresentation(tripid: Int(tripid), date: date, passengercount: Int(passengercount), childcount: Int(passengercount), airport: airport, luggagetype: luggagetype, staffUser: staffUser.name)
     }
     
-    convenience init(tripid: Int32, date: String, passengercount: Int32, childcount: Int32, airport: String, luggagetype: String, staff: Staff, context: NSManagedObjectContext) {
+    convenience init(tripid: Int32, date: String, passengercount: Int32, childcount: Int32, airport: String, luggagetype: String, staff: Staff?, context: NSManagedObjectContext) {
         self.init(context: context)
         
         self.tripid = tripid
@@ -29,5 +29,9 @@ extension Trip {
         self.passengercount = passengercount
         self.luggagetype = luggagetype
         self.staff = staff
+    }
+    
+    @discardableResult convenience init?(tripRepresentation: TripRepresentation, context: NSManagedObjectContext) {
+        self.init(tripid: Int32(tripRepresentation.tripid.hashValue), date: tripRepresentation.date, passengercount: Int32(tripRepresentation.passengercount.hashValue), childcount: Int32(tripRepresentation.childcount.hashValue), airport: tripRepresentation.airport, luggagetype: tripRepresentation.luggagetype, staff: nil, context: context)
     }
 }
