@@ -8,11 +8,10 @@
 
 import Foundation
 
+// MARK: - TravelerElement
 struct TravelerRepresentation: Codable {
-    var parentid: Int
-    var email: String
-    var name: String
-    var address: String
-    var airport: String
-    var trips: [TripRepresentation]
+    let parentid: Int
+    let username, password, phone, email: String
+    let name, address, airport, status: String
+    let trips: [TripRepresentation]
 }
