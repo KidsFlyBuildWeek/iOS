@@ -28,5 +28,6 @@ extension Trip {
         self.date = date
         self.passengercount = passengercount
         self.luggagetype = luggagetype
+        self.staff = staff
     }
 }
