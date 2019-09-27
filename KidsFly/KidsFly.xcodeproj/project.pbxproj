@@ -21,9 +21,12 @@
 		A26E751E233D762600677DE6 /* TravelerController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A26E751D233D762600677DE6 /* TravelerController.swift */; };
 		A26E7520233D763500677DE6 /* StaffController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A26E751F233D763500677DE6 /* StaffController.swift */; };
 		A26E7522233DA8A000677DE6 /* Bearer.swift in Sources */ = {isa = PBXBuildFile; fileRef = A26E7521233DA8A000677DE6 /* Bearer.swift */; };
+		A26E7524233DCCBE00677DE6 /* AddFlightViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A26E7523233DCCBE00677DE6 /* AddFlightViewController.swift */; };
+		A26E7526233DCDCA00677DE6 /* KidsFlyConnectionApplyViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A26E7525233DCDCA00677DE6 /* KidsFlyConnectionApplyViewController.swift */; };
+		A26E7528233DCE2D00677DE6 /* HomeTripsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A26E7527233DCE2D00677DE6 /* HomeTripsViewController.swift */; };
+		A26E752A233DCE7800677DE6 /* HomeTripsTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = A26E7529233DCE7800677DE6 /* HomeTripsTableViewCell.swift */; };
 		A27B73BD2339318C00F825CE /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A27B73BC2339318C00F825CE /* AppDelegate.swift */; };
 		A27B73BF2339318C00F825CE /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A27B73BE2339318C00F825CE /* SceneDelegate.swift */; };
-		A27B73C12339318C00F825CE /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A27B73C02339318C00F825CE /* ViewController.swift */; };
 		A27B73C42339318C00F825CE /* Traveller.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A27B73C22339318C00F825CE /* Traveller.storyboard */; };
 		A27B73C62339318E00F825CE /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A27B73C52339318E00F825CE /* Assets.xcassets */; };
 		A27B73C92339318E00F825CE /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A27B73C72339318E00F825CE /* LaunchScreen.storyboard */; };
@@ -50,10 +53,13 @@
 		A26E751D233D762600677DE6 /* TravelerController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TravelerController.swift; sourceTree = "<group>"; };
 		A26E751F233D763500677DE6 /* StaffController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StaffController.swift; sourceTree = "<group>"; };
 		A26E7521233DA8A000677DE6 /* Bearer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Bearer.swift; sourceTree = "<group>"; };
+		A26E7523233DCCBE00677DE6 /* AddFlightViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddFlightViewController.swift; sourceTree = "<group>"; };
+		A26E7525233DCDCA00677DE6 /* KidsFlyConnectionApplyViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KidsFlyConnectionApplyViewController.swift; sourceTree = "<group>"; };
+		A26E7527233DCE2D00677DE6 /* HomeTripsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeTripsViewController.swift; sourceTree = "<group>"; };
+		A26E7529233DCE7800677DE6 /* HomeTripsTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeTripsTableViewCell.swift; sourceTree = "<group>"; };
 		A27B73B92339318C00F825CE /* KidsFly.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = KidsFly.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		A27B73BC2339318C00F825CE /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		A27B73BE2339318C00F825CE /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		A27B73C02339318C00F825CE /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		A27B73C32339318C00F825CE /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Traveller.storyboard; sourceTree = "<group>"; };
 		A27B73C52339318E00F825CE /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		A27B73C82339318E00F825CE /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -122,7 +128,9 @@
 		A27B73DB2339357F00F825CE /* View Controllers */ = {
 			isa = PBXGroup;
 			children = (
-				A27B73C02339318C00F825CE /* ViewController.swift */,
+				A26E7523233DCCBE00677DE6 /* AddFlightViewController.swift */,
+				A26E7525233DCDCA00677DE6 /* KidsFlyConnectionApplyViewController.swift */,
+				A26E7527233DCE2D00677DE6 /* HomeTripsViewController.swift */,
 			);
 			path = "View Controllers";
 			sourceTree = "<group>";
@@ -154,6 +162,7 @@
 		A27B73E2233935D100F825CE /* Views */ = {
 			isa = PBXGroup;
 			children = (
+				A26E7529233DCE7800677DE6 /* HomeTripsTableViewCell.swift */,
 				A27B73EB2339936B00F825CE /* ConnectionTripsTableViewCell.swift */,
 			);
 			path = Views;
@@ -262,15 +271,18 @@
 			files = (
 				A22ED236233B32E800177E01 /* TravelerRepresentation.swift in Sources */,
 				A20D313B233D5B8D0016EA43 /* StaffRepresentation.swift in Sources */,
+				A26E7528233DCE2D00677DE6 /* HomeTripsViewController.swift in Sources */,
 				86D3F3D7233AFCC6006904F6 /* TripRepresentation.swift in Sources */,
+				A26E7526233DCDCA00677DE6 /* KidsFlyConnectionApplyViewController.swift in Sources */,
 				A22ED232233AEFF500177E01 /* Trip+Convenience.swift in Sources */,
 				A26E7520233D763500677DE6 /* StaffController.swift in Sources */,
+				A26E752A233DCE7800677DE6 /* HomeTripsTableViewCell.swift in Sources */,
 				A26E751E233D762600677DE6 /* TravelerController.swift in Sources */,
 				A22ED234233B303B00177E01 /* Traveler+Convenience.swift in Sources */,
 				A22ED230233AED8500177E01 /* Trip.xcdatamodeld in Sources */,
 				A22ED22D233AEC4D00177E01 /* CoreDataStack.swift in Sources */,
-				A27B73C12339318C00F825CE /* ViewController.swift in Sources */,
 				A26E7522233DA8A000677DE6 /* Bearer.swift in Sources */,
+				A26E7524233DCCBE00677DE6 /* AddFlightViewController.swift in Sources */,
 				A27B73EC2339936B00F825CE /* ConnectionTripsTableViewCell.swift in Sources */,
 				A27B73BD2339318C00F825CE /* AppDelegate.swift in Sources */,
 				A27B73BF2339318C00F825CE /* SceneDelegate.swift in Sources */,
