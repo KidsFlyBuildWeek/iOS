@@ -9,7 +9,7 @@
 /* Begin PBXBuildFile section */
 		86D3F3D7233AFCC6006904F6 /* TripRepresentation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 86D3F3D6233AFCC6006904F6 /* TripRepresentation.swift */; };
 		A20D313B233D5B8D0016EA43 /* StaffRepresentation.swift in Sources */ = {isa = PBXBuildFile; fileRef = A20D313A233D5B8D0016EA43 /* StaffRepresentation.swift */; };
-		A22ED225233AEBAC00177E01 /* SignUpLogIn.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A22ED224233AEBAC00177E01 /* SignUpLogIn.storyboard */; };
+		A22ED225233AEBAC00177E01 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A22ED224233AEBAC00177E01 /* Main.storyboard */; };
 		A22ED227233AEBCF00177E01 /* AddFlightView.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A22ED226233AEBCF00177E01 /* AddFlightView.storyboard */; };
 		A22ED229233AEBDB00177E01 /* HomeTripsView.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A22ED228233AEBDB00177E01 /* HomeTripsView.storyboard */; };
 		A22ED22B233AEBE500177E01 /* KidsFlyConnectionApply.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A22ED22A233AEBE500177E01 /* KidsFlyConnectionApply.storyboard */; };
@@ -41,7 +41,7 @@
 		86D3F3D6233AFCC6006904F6 /* TripRepresentation.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TripRepresentation.swift; sourceTree = "<group>"; };
 		A20D3139233D47F60016EA43 /* Traveler+Trip+Staff.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = "Traveler+Trip+Staff.xcdatamodel"; sourceTree = "<group>"; };
 		A20D313A233D5B8D0016EA43 /* StaffRepresentation.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StaffRepresentation.swift; sourceTree = "<group>"; };
-		A22ED224233AEBAC00177E01 /* SignUpLogIn.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = SignUpLogIn.storyboard; sourceTree = "<group>"; };
+		A22ED224233AEBAC00177E01 /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Main.storyboard; sourceTree = "<group>"; };
 		A22ED226233AEBCF00177E01 /* AddFlightView.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = AddFlightView.storyboard; sourceTree = "<group>"; };
 		A22ED228233AEBDB00177E01 /* HomeTripsView.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = HomeTripsView.storyboard; sourceTree = "<group>"; };
 		A22ED22A233AEBE500177E01 /* KidsFlyConnectionApply.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = KidsFlyConnectionApply.storyboard; sourceTree = "<group>"; };
@@ -118,7 +118,7 @@
 		A27B73DA2339357500F825CE /* Storyboards */ = {
 			isa = PBXGroup;
 			children = (
-				A22ED224233AEBAC00177E01 /* SignUpLogIn.storyboard */,
+				A22ED224233AEBAC00177E01 /* Main.storyboard */,
 				A27B73E623397FDF00F825CE /* Connection Storyboards */,
 				A27B73E32339661C00F825CE /* Traveller Storyboards */,
 			);
@@ -250,7 +250,7 @@
 			files = (
 				A27B73C92339318E00F825CE /* LaunchScreen.storyboard in Resources */,
 				A27B73E82339807000F825CE /* ConnectionHome.storyboard in Resources */,
-				A22ED225233AEBAC00177E01 /* SignUpLogIn.storyboard in Resources */,
+				A22ED225233AEBAC00177E01 /* Main.storyboard in Resources */,
 				A22ED229233AEBDB00177E01 /* HomeTripsView.storyboard in Resources */,
 				A27B73EA2339809A00F825CE /* ConnectionSettings.storyboard in Resources */,
 				A27B73E523397FD800F825CE /* Connection.storyboard in Resources */,

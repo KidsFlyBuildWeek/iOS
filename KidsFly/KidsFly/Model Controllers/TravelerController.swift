@@ -36,7 +36,7 @@ class TravelController {
     
     // The Error? in the completion closure lets us return an error to the view controller for further error handling.
     
-    // MARK: - Networking SignUp/SignIn Methods
+    // MARK: - createNewTraveler
        func createNewTraveler(with user: TravelerRepresentation, completion: @escaping (NetworkError?) -> Void) {
         
         
@@ -81,6 +81,7 @@ class TravelController {
             }.resume()
     }
     
+    // MARK: - login Method
     func login(with user: TravelerRepresentation, completion: @escaping (NetworkError?) -> Void) {
         
         // Set up the URL
@@ -140,4 +141,47 @@ class TravelController {
             completion(nil)
         }.resume()
     }
+    
+    // MARK: - Post Trip Method
+    func postTrip(trip: Trip, completion: @escaping () -> Void = {  }) {
+        let requestURL = baseURL.appendingPathComponent("trips")
+                                .appendingPathComponent("new")
+        
+        var request = URLRequest(url: requestURL)
+        request.httpMethod = HTTPMethod.post.rawValue
+        
+        guard let tripRepresentation = trip.tripRepresentation else {
+            NSLog("Trip Representation is nil on line \(#line) in \(#file)")
+            completion()
+            return
+        }
+        
+        do {
+            request.httpBody = try JSONEncoder().encode(tripRepresentation)
+        } catch {
+            NSLog("Error encoding trip representation on line \(#line) in \(#file): \(error)")
+            completion()
+            return
+        }
+        
+        URLSession.shared.dataTask(with: request) { (_, response, error) in
+            if let error = error {
+                NSLog("Error POSTing trip on line \(#line) in \(#file): \(error)")
+                completion()
+                return
+            }
+            
+            if let response = response as? HTTPURLResponse {
+                if response.statusCode != 200 {
+                    NSLog("Response status code returned code \(response.statusCode)")
+                    completion()
+                    return
+                }
+            }
+            
+            completion()
+        }.resume()
+    }
+    
+    
 }
