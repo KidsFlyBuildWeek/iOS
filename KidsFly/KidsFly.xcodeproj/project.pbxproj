@@ -110,7 +110,6 @@
 				A27B73E2233935D100F825CE /* Views */,
 				A27B73DB2339357F00F825CE /* View Controllers */,
 				A27B73DA2339357500F825CE /* Storyboards */,
-				A27B73C52339318E00F825CE /* Assets.xcassets */,
 				A27B73C72339318E00F825CE /* LaunchScreen.storyboard */,
 				A27B73CA2339318E00F825CE /* Info.plist */,
 			);
@@ -178,6 +177,7 @@
 				A27B73D62339353300F825CE /* Settings.storyboard */,
 				A22ED228233AEBDB00177E01 /* HomeTripsView.storyboard */,
 				A22ED226233AEBCF00177E01 /* AddFlightView.storyboard */,
+				A27B73C52339318E00F825CE /* Assets.xcassets */,
 				A22ED22A233AEBE500177E01 /* KidsFlyConnectionApply.storyboard */,
 			);
 			path = "Traveller Storyboards";

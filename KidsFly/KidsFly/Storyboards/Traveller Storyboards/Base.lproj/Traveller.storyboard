@@ -9,7 +9,7 @@
         <!--Tab Bar Controller-->
         <scene sceneID="uQl-aB-dV4">
             <objects>
-                <tabBarController modalPresentationStyle="fullScreen" id="k0e-4b-qDH" sceneMemberID="viewController">
+                <tabBarController storyboardIdentifier="TravelerTabBarController" modalPresentationStyle="fullScreen" id="k0e-4b-qDH" sceneMemberID="viewController">
                     <tabBar key="tabBar" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" id="vyx-1R-M2Q">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="49"/>
                         <autoresizingMask key="autoresizingMask"/>
@@ -24,12 +24,12 @@
                 </tabBarController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="MbS-3t-1Tk" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="-157" y="-170"/>
+            <point key="canvasLocation" x="-161" y="-171"/>
         </scene>
-        <!--Storyboard Reference-->
+        <!--HomeTripsView-->
         <scene sceneID="GEA-no-xha">
             <objects>
-                <viewControllerPlaceholder id="1Qh-3Z-HIJ" sceneMemberID="viewController">
+                <viewControllerPlaceholder storyboardName="HomeTripsView" id="1Qh-3Z-HIJ" sceneMemberID="viewController">
                     <tabBarItem key="tabBarItem" title="Item" id="vhK-GB-lNf"/>
                 </viewControllerPlaceholder>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="Dm8-rZ-PLm" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>

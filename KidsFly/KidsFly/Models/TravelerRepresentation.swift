@@ -14,5 +14,5 @@ struct TravelerRepresentation: Codable {
     let username, password, phone, email: String
     let name, address, airport: String
     let status: String?
-    let trips: [TripRepresentation]
+    let trips: [TripRepresentation?]
 }

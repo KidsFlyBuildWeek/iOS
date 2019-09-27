@@ -310,10 +310,10 @@
             </objects>
             <point key="canvasLocation" x="917" y="426"/>
         </scene>
-        <!--HomeTripsView-->
+        <!--TravelerTabBarController-->
         <scene sceneID="q1R-Nt-m7b">
             <objects>
-                <viewControllerPlaceholder storyboardName="HomeTripsView" id="YyU-9u-ta8" sceneMemberID="viewController">
+                <viewControllerPlaceholder storyboardName="Traveller" referencedIdentifier="TravelerTabBarController" id="YyU-9u-ta8" sceneMemberID="viewController">
                     <navigationItem key="navigationItem" id="g6a-uF-QN9"/>
                 </viewControllerPlaceholder>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="IID-vE-FXd" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>

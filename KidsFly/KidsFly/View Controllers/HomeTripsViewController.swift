@@ -55,7 +55,13 @@ extension HomeTripsViewController: UITableViewDelegate {
 
 // MARK: - DataSource Extension
 extension HomeTripsViewController: UITableViewDataSource {
+    
+    func numberOfSections(in tableView: UITableView) -> Int {
+        return fetchResultsController.sections?.count ?? 0
+    }
+    
     func tableView(_ tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
+        
         return fetchResultsController.sections?[section].numberOfObjects ?? 0
     }
     

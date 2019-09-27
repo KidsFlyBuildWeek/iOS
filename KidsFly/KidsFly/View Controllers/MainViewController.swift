@@ -128,7 +128,7 @@ class MainViewController: UIViewController {
     // In a storyboard-based application, you will often want to do a little preparation before navigation
     override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
         if segue.identifier == "TravelerSegue" {
-            if let homeVC = segue.destination as? HomeTripsViewController {
+            if let homeVC = segue.destination as? UITabBarController {
                 
             }
         }
